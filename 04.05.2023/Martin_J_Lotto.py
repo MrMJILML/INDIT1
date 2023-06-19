@@ -9,8 +9,7 @@ anz_t = int(input("Wie viele Tipps möchten Sie abgeben: ")) #Abfrage nach der g
 if anz_t <=6: 
     while l <anz_t:
         x = random.randint(1,45) #Es wird eine zufallszahl zwischen 1 und 45 generiert
-        if x in tipps: #Überprüfung ob die Zahl bereits vorhanden ist
-            l = l  
+        if x in tipps: #Überprüfung ob die Zahl bereits vorhanden ist 
         else:
             tipps.append(x)
             l+=1
